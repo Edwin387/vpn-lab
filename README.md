@@ -11,7 +11,64 @@ This tutorial walks you through setting up a virtual machine in Microsoft Azure,
 ## Part 1: Create a Virtual Machine in Azure
 
 1. **Access Your Public IP Address**
+   - On your own machine, browse to [WhatisMyIpAddress](https://whatismyipaddress.com/).
+   - Take note of your public IP address and save it in a text file for reference.
 
+2. **Create a Resource Group**
+   - Log into your Azure Portal: [Azure Portal](https://portal.azure.com/)
+   - Navigate to **Resource Groups** and click **Create**.
+   - Provide the following:
+   - **Resource Group Name**: `MyAzureVPNLab`
+   - **Region**: Select a region near you.
+   - Click **Review + Create**, then **Create**.
+
+   3. **Create a Virtual Machine**
+      - Navigate to **Virtual Machines** in the Azure Portal and click **Create**.
+      - Select **Azure Virtual Machine**.
+      - Fill out the following:
+      - **Name**: `MyWindowsVm`
+      - **Region**: Choose a region close to your geographic location or country from your current location.
+      - **Image**: Windows 10 22H2.
+      - **Size**: Select a size that has at least 2vcpus, and 8GIB memory.
+      - **Adminstrator Username and Password**: Set your credentials.
+    - Acknowledge licensing agreement & ensure **Inbound Port Rules** to allow RDP (Remote Desktop Protocol).
+     - Click **Review + Create**, then **Create**.
+
+<p>
+  
+</p>
+
+4. **Log into the Virtual Machine**
+   - After the VM is created, navigate to it in the Azure Portal.
+   - Copy the **Public IP Address** of your VM.
+   - Use Remote Desktop to connect to the VM:
+     - **Remote Desktop Address**: Enter the Public IP Address of the VM.
+     - **Username and Password**: Use the credentials you created earlier.
+    - Once connected, open a web browser on the VM.
+     
+<p>
+  
+</p>
+
+5. **Check the VM's Public IP Address**
+   - In the VM, browse to [WhatIsmyIPAddress](https://whatismyipaddress.com/).
+   - Take note of the VM's public IP address and save it in a text file.
+
+---
+
+## Part 2: Sign Up for ProtonVPN and Test the VPN Connection
+
+1. **Sign Up for ProtonVPN**
+   - On your actual computer, go to [ProtonVPN Sign-Up] (https://account.protonvpn.com/signup?plan=free&language=en).
+   - Create a free account.
+
+2. **Download ProtonVPN Client**
+   - In your VM, go to [ProtonVPN Download](https://protonvpn.com/download/).
+   - Download and install the ProtonVPN client.
+  
+     3. **Log Into ProtonVPN**
+        - Open the ProtonVPN client in the VM.
+        - Log in using your ProtonVPN account credentials: [ProtonVPN Login](https://account.protonvpn.com/login).
 
 
 
