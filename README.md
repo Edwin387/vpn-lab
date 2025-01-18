@@ -65,20 +65,37 @@ This tutorial walks you through setting up a virtual machine in Microsoft Azure,
 2. **Download ProtonVPN Client**
    - In your VM, go to [ProtonVPN Download](https://protonvpn.com/download/).
    - Download and install the ProtonVPN client.
-  
-     3. **Log Into ProtonVPN**
-        - Open the ProtonVPN client in the VM.
-        - Log in using your ProtonVPN account credentials: [ProtonVPN Login](https://account.protonvpn.com/login).
 
+3. **Log Into ProtonVPN**
+   - Open the ProtonVPN client in the VM.
+   - Log in using your ProtonVPN account credentials: [ProtonVPN Login](https://account.protonvpn.com/login).
 
+4. **Connect to a VPN Server**
+  - In the ProtonVPN client, choose a VPN server in a area different from your actual computer's location (Proton VPN requires payment to change countries).
+- Connect to the VPN server. 
 
+<p>
+   
+</p>
 
+5. **Check the VPN's Public IP Address**
+   - In the VM, browse to [WhatIsMyIPAddress](https://whatismyipaddress.com/).
+   - Take note of the new IP address and save it in a text file.
 
+---
 
+## Notes and Observations
 
+- Save all IP addresses and observations in a text file for documentation purposes.
+- Compare the behavior of websites and the changes in IP addresses to understand the effects of geographic location and VPN usage.
+- From this lab, here are my documented IP addresses & their changes:
 
+<p>
+   
+</p>
 
+<p>
+   
+</p>
 
-
-
-
+---
