@@ -18,19 +18,19 @@ This tutorial walks you through setting up a virtual machine in Microsoft Azure,
    - Log into your Azure Portal: [Azure Portal](https://portal.azure.com/)
    - Navigate to **Resource Groups** and click **Create**.
    - Provide the following:
-   - **Resource Group Name**: `MyAzureVPNLab`
-   - **Region**: Select a region near you.
+       - **Resource Group Name**: `MyAzureVPNLab`
+       - **Region**: Select a region near you.
    - Click **Review + Create**, then **Create**.
 
    3. **Create a Virtual Machine**
       - Navigate to **Virtual Machines** in the Azure Portal and click **Create**.
       - Select **Azure Virtual Machine**.
       - Fill out the following:
-      - **Name**: `MyWindowsVm`
-      - **Region**: Choose a region close to your geographic location or country from your current location.
-      - **Image**: Windows 10 22H2.
-      - **Size**: Select a size that has at least 2vcpus, and 8GIB memory.
-      - **Adminstrator Username and Password**: Set your credentials.
+          - **Name**: `MyWindowsVm`
+          - **Region**: Choose a region close to your geographic location or country from your current location.
+          - **Image**: Windows 10 22H2.
+          - **Size**: Select a size that has at least 2vcpus, and 8GIB memory.
+          - **Adminstrator Username and Password**: Set your credentials.
     - Acknowledge licensing agreement & ensure **Inbound Port Rules** to allow RDP (Remote Desktop Protocol).
      - Click **Review + Create**, then **Create**.
 
