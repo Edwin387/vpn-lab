@@ -22,7 +22,7 @@ This tutorial walks you through setting up a virtual machine in Microsoft Azure,
        - **Region**: Select a region near you.
    - Click **Review + Create**, then **Create**.
 
-   3. **Create a Virtual Machine**
+   3.  **Create a Virtual Machine**
       - Navigate to **Virtual Machines** in the Azure Portal and click **Create**.
       - Select **Azure Virtual Machine**.
       - Fill out the following:
