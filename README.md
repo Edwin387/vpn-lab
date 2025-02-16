@@ -59,7 +59,7 @@ This tutorial walks you through setting up a virtual machine in Microsoft Azure,
 ## Part 2: Sign Up for ProtonVPN and Test the VPN Connection
 
 1. **Sign Up for ProtonVPN**
-   - On your actual computer, go to [ProtonVPN Sign-Up] (https://account.protonvpn.com/signup?plan=free&language=en).
+   - On your actual computer, go to [ProtonVPN Sign-Up](https://account.protonvpn.com/signup?plan=free&language=en).
    - Create a free account.
 
 2. **Download ProtonVPN Client**
@@ -71,7 +71,7 @@ This tutorial walks you through setting up a virtual machine in Microsoft Azure,
    - Log in using your ProtonVPN account credentials: [ProtonVPN Login](https://account.protonvpn.com/login).
 
 4. **Connect to a VPN Server**
-  - In the ProtonVPN client, choose a VPN server in a area different from your actual computer's location (Proton VPN requires payment to change countries).
+  - In the ProtonVPN client, choose a VPN server in an area different from your actual computer's location (Proton VPN requires payment to change countries).
 - Connect to the VPN server. 
 
 ![image](https://github.com/Edwin387/vpn-lab/blob/main/shot%205.PNG?raw=true)
